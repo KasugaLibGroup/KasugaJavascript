@@ -1,0 +1,9 @@
+{
+  "name": "@kasugalib/workspace",
+  "description": "Workspaces of kasugalib",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

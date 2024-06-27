@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@kasugalib/core": ["packages/core/src"]
+    },
+  },
+  "files": [],
+}

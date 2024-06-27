@@ -1,0 +1,9 @@
+{
+  "name": "@kasugalib/core",
+  "description": "Core modules of kasugalib (bootstrap resources)",
+  "version": "0.0.1",
+  "keywords": ["minecraft","kasuga"],
+  "minecraft": {
+    "bootstrap": "lib/bootstrap.js"
+  }
+}
