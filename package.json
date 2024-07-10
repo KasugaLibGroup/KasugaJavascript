@@ -3,6 +3,9 @@
   "description": "Workspaces of kasugalib",
   "version": "0.0.1",
   "private": true,
+  "devDependencies": {
+    "@types/node": "^20.14.9"
+  },
   "workspaces": [
     "packages/*"
   ]

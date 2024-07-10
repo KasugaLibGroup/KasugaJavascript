@@ -1,0 +1,31 @@
+{
+  "name": "@kasugalib/webui",
+  "description": "Web UI Debugger for KasugaLib",
+  "version": "0.0.1",
+  "keywords": [
+    "minecraft",
+    "kasuga"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "antd": "^5.18.3",
+    "koa": "^2.15.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa__router": "^12.0.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "express": "^4.19.2"
+  },
+  "bin": {
+    "kasuga-webui": "bin.js"
+  }
+}

@@ -3,11 +3,12 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
+    "declaration": true,
+    "emitDeclarationOnly": false,
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictFunctionTypes": false,
-    "declaration": true,
-    "emitDeclarationOnly": false
+    "types": []
   },
   "include": [
     "src",

@@ -1,0 +1,7 @@
+{
+  "name": "@kasugalib/web-polyfill",
+  "description": "Web UI Designer for KasugaLib",
+  "version": "0.0.1",
+  "keywords": ["minecraft","kasuga"],
+  "main": "lib/index.js"
+}

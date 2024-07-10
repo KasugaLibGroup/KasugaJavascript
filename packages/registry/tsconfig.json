@@ -1,13 +1,16 @@
 {
   "extends": "../../tsconfig.base",
   "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": false,
     "rootDir": "src",
     "outDir": "lib",
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictFunctionTypes": false,
-    "declaration": true,
-    "emitDeclarationOnly": false
+    "types": [
+      "@kasugalib/core/native.d.ts",
+    ]
   },
   "include": [
     "src",

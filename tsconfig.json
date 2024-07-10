@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@kasugalib/core": ["packages/core/src"]
+      "@kasugalib/core": ["packages/core/src"],
+      "@kasugalib/gui": ["packages/gui/src"],
+      "@kasugalib/registry": ["packages/registry/src"]
     },
   },
   "files": [],

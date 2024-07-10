@@ -3,7 +3,12 @@
   "description": "Core modules of kasugalib (bootstrap resources)",
   "version": "0.0.1",
   "keywords": ["minecraft","kasuga"],
-  "minecraft": {
-    "bootstrap": "lib/bootstrap.js"
+  "main": "lib/index.js",
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  },
+  "scripts": {
+    "build:esbuild": "esbuild ./src/index.ts --bundle --outfile=./lib/index.js --external:kasuga:* --platform=node",
+    "build:typescript": "tsc"
   }
 }

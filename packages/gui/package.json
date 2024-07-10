@@ -1,0 +1,8 @@
+{
+  "name": "@kasugalib/gui",
+  "description": "GUI Library for KasugaLib",
+  "version": "0.0.1",
+  "keywords": ["minecraft","kasuga"],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts"
+}

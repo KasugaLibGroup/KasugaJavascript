@@ -3,11 +3,14 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
+    "emitDeclarationOnly": false,
+    "module": "commonjs",
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictFunctionTypes": false,
-    "declaration": true,
-    "emitDeclarationOnly": false
+    "types": [
+      "@kasugalib/core/lib/native.d.ts"
+    ]
   },
   "include": [
     "src",
