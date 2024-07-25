@@ -5,6 +5,7 @@
   "keywords": ["minecraft","kasuga"],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": ["lib"],
   "scripts": {
     "build:esbuild": "esbuild ./src/index.ts --outfile=./lib/index.js --external:kasuga:* --platform=node"
   }

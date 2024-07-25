@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@kasugalib/webui",
   "description": "Web UI Debugger for KasugaLib",
   "version": "0.0.1",
