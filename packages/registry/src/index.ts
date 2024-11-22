@@ -18,7 +18,13 @@ function createSimpleRegistry(){
     return registry;
 }
 
-const native = (typeof require !== "undefined" && require("kasuga:registry")) ||  globalThis['KASUGA_LIB_REGISTRY_HOOK'] || createSimpleRegistry();
+declare global{
+    export const module : {
+        require: (id:string)=>any;
+    };
+}
+
+const native = (typeof module['require'] !== "undefined" && module['require']("kasuga:registry")) ||  globalThis['KASUGA_LIB_REGISTRY_HOOK'] || createSimpleRegistry();
 
 export interface Registries{}
 
