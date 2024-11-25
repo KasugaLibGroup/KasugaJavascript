@@ -1,9 +1,15 @@
 {
   "name": "@kasugalib/nbt",
   "description": "NBT Library for KasugaLib",
-  "version": "0.0.1",
-  "keywords": ["minecraft", "kasuga", "nbt"],
-  "files": ["lib"],
+  "version": "0.0.2",
+  "keywords": [
+    "minecraft",
+    "kasuga",
+    "nbt"
+  ],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts"
-} 
+}

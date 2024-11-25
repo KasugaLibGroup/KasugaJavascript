@@ -1,2 +1,10 @@
-- name: yakumo
-- name: yakumo-tsc
+- id: q6o9ie
+  name: yakumo
+- id: k1hq5k
+  name: yakumo-tsc
+- id: 2xozbk
+  name: yakumo/run
+- id: ieb07n
+  name: yakumo/version
+- id: rq7oln
+  name: yakumo/publish

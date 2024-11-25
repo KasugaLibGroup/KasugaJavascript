@@ -1,9 +1,15 @@
 {
   "name": "@kasugalib/core",
   "description": "Core modules of kasugalib (bootstrap resources)",
-  "version": "0.0.1",
-  "keywords": ["minecraft","kasuga"],
-  "files": ["lib","native.d.ts"],
+  "version": "0.0.2",
+  "keywords": [
+    "minecraft",
+    "kasuga"
+  ],
+  "files": [
+    "lib",
+    "native.d.ts"
+  ],
   "main": "lib/index.js",
   "devDependencies": {
     "esbuild": "^0.21.5"

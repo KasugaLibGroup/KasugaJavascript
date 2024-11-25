@@ -1,8 +1,11 @@
 {
   "name": "@kasugalib/menu",
   "description": "Menu ",
-  "version": "0.0.1",
-  "keywords": ["minecraft","kasuga"],
+  "version": "0.0.2",
+  "keywords": [
+    "minecraft",
+    "kasuga"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "devDependencies": {
