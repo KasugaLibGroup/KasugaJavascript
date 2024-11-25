@@ -13,5 +13,4 @@ if('KASUGA_POLYFILL' in globalThis){
         initializeRuntime(globalThis);
     }
 }
-
 export type {} from "./runtime"

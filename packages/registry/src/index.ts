@@ -28,7 +28,7 @@ const native = (typeof module['require'] !== "undefined" && module['require']("k
 
 export interface Registries{}
 
-export function getRegistry<T extends keyof Registries>(registry:T):Registry<Registries[T]>{
+export function getRegistry<T extends string = keyof Registries>(registry:T):Registry<T extends keyof Registries ? Registries[T] : any>{
     return new Registry(registry);
 }
 

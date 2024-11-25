@@ -1,6 +1,7 @@
 import {polyfillTimer} from "./timer";
 import {polyfillLoader} from "./loader";
 import {polyfillWebsocket} from "./websocket";
+
 export function initializeRuntime(target:Partial<typeof globalThis>){
     Object.defineProperty(globalThis,"window",{
         value: globalThis,
