@@ -18,7 +18,7 @@ export interface MenuHandle{
     addEventListener(name: string, callback:Function);
     removeEventListener(name: string, callback:Function);
     inject(name: string);
-    broadcast()
+    broadcast(data: CompoundTagWrapper);
 }
 
 
@@ -65,6 +65,11 @@ export abstract class MenuEntry{
     }
 
     onClose(){}
+
+
+    broadcast(resp:CompoundTagWrapper){
+        this.handle.broadcast(resp)
+    }
 }
 
 export function register(location:string ,menu: (handler) => MenuEntry){
